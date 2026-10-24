@@ -1,0 +1,644 @@
+{
+  "version": "2026-spring-1",
+  "checkedAt": "2026-10-22",
+  "prefectures": {
+    "hokkaido": {
+      "name": "北海道",
+      "type": "fixed",
+      "weights": {
+        "g1": { "core": 2, "practical": 2 },
+        "g2": { "core": 2, "practical": 2 },
+        "g3": { "core": 3, "practical": 3 }
+      },
+      "max": 315,
+      "converted": null,
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E5%8C%97%E6%B5%B7%E9%81%93.pdf"
+    },
+    "aomori": {
+      "name": "青森県",
+      "type": "fixed",
+      "weights": {
+        "g1": { "core": 1, "practical": 1 },
+        "g2": { "core": 1, "practical": 1 },
+        "g3": { "core": 1, "practical": 1 }
+      },
+      "max": 135,
+      "converted": null,
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E9%9D%92%E6%A3%AE.pdf"
+    },
+    "iwate": {
+      "name": "岩手県",
+      "type": "fixed",
+      "weights": {
+        "g1": { "core": 2, "practical": 3 },
+        "g2": { "core": 4, "practical": 6 },
+        "g3": { "core": 6, "practical": 9 }
+      },
+      "max": 660,
+      "converted": { "max": 500 },
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E5%B2%A9%E6%89%8B.pdf"
+    },
+    "miyagi": {
+      "name": "宮城県",
+      "type": "fixed",
+      "weights": {
+        "g1": { "core": 1, "practical": 2 },
+        "g2": { "core": 1, "practical": 2 },
+        "g3": { "core": 1, "practical": 2 }
+      },
+      "max": 195,
+      "converted": null,
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E5%AE%AE%E5%9F%8E.pdf"
+    },
+    "akita": {
+      "name": "秋田県",
+      "type": "fixed",
+      "weights": {
+        "g1": { "core": 1, "practical": 2 },
+        "g2": { "core": 1, "practical": 2 },
+        "g3": { "core": 1, "practical": 2 }
+      },
+      "max": 195,
+      "converted": null,
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E7%A7%8B%E7%94%B0.pdf"
+    },
+    "yamagata": {
+      "name": "山形県",
+      "type": "fixed",
+      "weights": {
+        "g3": { "core": 1, "practical": 1 }
+      },
+      "max": 45,
+      "converted": { "max": 500 },
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E5%B1%B1%E5%BD%A2.pdf"
+    },
+    "fukushima": {
+      "name": "福島県",
+      "type": "fixed",
+      "weights": {
+        "g1": { "core": 1, "practical": 2 },
+        "g2": { "core": 1, "practical": 2 },
+        "g3": { "core": 1, "practical": 2 }
+      },
+      "max": 195,
+      "converted": null,
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E7%A6%8F%E5%B3%B6.pdf"
+    },
+    "ibaraki": {
+      "name": "茨城県",
+      "type": "fixed",
+      "weights": {
+        "g1": { "core": 1, "practical": 1 },
+        "g2": { "core": 1, "practical": 1 },
+        "g3": { "core": 1, "practical": 1 }
+      },
+      "max": 135,
+      "converted": null,
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E8%8C%A8%E5%9F%8E.pdf"
+    },
+    "tochigi": {
+      "name": "栃木県",
+      "type": "fixed",
+      "weights": {
+        "g1": { "core": 1, "practical": 1 },
+        "g2": { "core": 1, "practical": 1 },
+        "g3": { "core": 1, "practical": 1 }
+      },
+      "max": 135,
+      "converted": { "max": 500 },
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E6%A0%83%E6%9C%A8.pdf"
+    },
+    "gunma": {
+      "name": "群馬県",
+      "type": "unconfirmed",
+      "notes": [],
+      "source": "https://bestjuku.com/high_exam/gunma/"
+    },
+    "saitama": {
+      "name": "埼玉県",
+      "type": "patterns",
+      "patterns": [
+        {
+          "label": "3学年を同じ比率で見る高校",
+          "weights": {
+            "g1": { "core": 1, "practical": 1 },
+            "g2": { "core": 1, "practical": 1 },
+            "g3": { "core": 1, "practical": 1 }
+          },
+          "max": 135
+        },
+        {
+          "label": "中3の成績を2倍にする高校",
+          "weights": {
+            "g1": { "core": 1, "practical": 1 },
+            "g2": { "core": 1, "practical": 1 },
+            "g3": { "core": 2, "practical": 2 }
+          },
+          "max": 180
+        },
+        {
+          "label": "中3の成績を3倍にする高校",
+          "weights": {
+            "g1": { "core": 1, "practical": 1 },
+            "g2": { "core": 1, "practical": 1 },
+            "g3": { "core": 3, "practical": 3 }
+          },
+          "max": 225
+        },
+        {
+          "label": "中2を2倍、中3を3倍にする高校",
+          "weights": {
+            "g1": { "core": 1, "practical": 1 },
+            "g2": { "core": 2, "practical": 2 },
+            "g3": { "core": 3, "practical": 3 }
+          },
+          "max": 270
+        },
+        {
+          "label": "中2を2倍、中3を4倍にする高校",
+          "weights": {
+            "g1": { "core": 1, "practical": 1 },
+            "g2": { "core": 2, "practical": 2 },
+            "g3": { "core": 4, "practical": 4 }
+          },
+          "max": 315
+        },
+        {
+          "label": "中1・中2を2倍、中3を3倍にする高校",
+          "weights": {
+            "g1": { "core": 2, "practical": 2 },
+            "g2": { "core": 2, "practical": 2 },
+            "g3": { "core": 3, "practical": 3 }
+          },
+          "max": 315
+        }
+      ],
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E5%9F%BC%E7%8E%89.pdf"
+    },
+    "chiba": {
+      "name": "千葉県",
+      "type": "coefficient",
+      "weights": {
+        "g1": { "core": 1, "practical": 1 },
+        "g2": { "core": 1, "practical": 1 },
+        "g3": { "core": 1, "practical": 1 }
+      },
+      "max": 135,
+      "coefficients": [
+        { "label": "内申を軽めに見る高校", "value": 0.5 },
+        { "label": "普通の高校", "value": 1 },
+        { "label": "内申を重く見る高校", "value": 2 }
+      ],
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E5%8D%83%E8%91%89.pdf"
+    },
+    "tokyo": {
+      "name": "東京都",
+      "type": "fixed",
+      "weights": {
+        "g3": { "core": 1, "practical": 2 }
+      },
+      "max": 65,
+      "converted": { "max": 300, "note": "第一次募集の原則(調査書3:学力検査7)の場合です" },
+      "notes": ["芸術・体育に関する学科と第二次募集は計算方法が違います(75点満点)"],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E6%9D%B1%E4%BA%AC.pdf"
+    },
+    "kanagawa": {
+      "name": "神奈川県",
+      "type": "fixed",
+      "weights": {
+        "g2": { "core": 1, "practical": 1 },
+        "g3": { "core": 2, "practical": 2 }
+      },
+      "max": 135,
+      "converted": { "max": 100 },
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E7%A5%9E%E5%A5%88%E5%B7%9D.pdf"
+    },
+    "niigata": {
+      "name": "新潟県",
+      "type": "fixed",
+      "weights": {
+        "g1": { "core": 1, "practical": 1 },
+        "g2": { "core": 1, "practical": 1 },
+        "g3": { "core": 1, "practical": 1 }
+      },
+      "max": 135,
+      "converted": { "max": 1000 },
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E6%96%B0%E6%BD%9F.pdf"
+    },
+    "toyama": {
+      "name": "富山県",
+      "type": "fixed",
+      "weights": {
+        "g2": { "core": 1, "practical": 1 },
+        "g3": { "core": 2, "practical": 2 }
+      },
+      "max": 135,
+      "converted": null,
+      "notes": ["評定のほかに15点が加わります。この点数には含まれていません"],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E5%AF%8C%E5%B1%B1.pdf"
+    },
+    "ishikawa": {
+      "name": "石川県",
+      "type": "fixed",
+      "weights": {
+        "g1": { "core": 1, "practical": 1 },
+        "g2": { "core": 1, "practical": 1 },
+        "g3": { "core": 2, "practical": 2 }
+      },
+      "max": 180,
+      "converted": null,
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E7%9F%B3%E5%B7%9D.pdf"
+    },
+    "fukui": {
+      "name": "福井県",
+      "type": "fixed",
+      "weights": {
+        "g3": { "core": 1, "practical": 1 }
+      },
+      "max": 45,
+      "converted": null,
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E7%A6%8F%E4%BA%95.pdf"
+    },
+    "yamanashi": {
+      "name": "山梨県",
+      "type": "fixed",
+      "weights": {
+        "g1": { "core": 2, "practical": 3 },
+        "g2": { "core": 2, "practical": 3 },
+        "g3": { "core": 2, "practical": 3 }
+      },
+      "max": 330,
+      "converted": null,
+      "notes": ["後期募集の計算です。前期募集は高校ごとに換算・傾斜があります"],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E5%B1%B1%E6%A2%A8.pdf"
+    },
+    "nagano": {
+      "name": "長野県",
+      "type": "fixed",
+      "weights": {
+        "g3": { "core": 1, "practical": 1 }
+      },
+      "max": 45,
+      "converted": null,
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E9%95%B7%E9%87%8E.pdf"
+    },
+    "gifu": {
+      "name": "岐阜県",
+      "type": "fixed",
+      "weights": {
+        "g1": { "core": 1, "practical": 1 },
+        "g2": { "core": 1, "practical": 1 },
+        "g3": { "core": 2, "practical": 2 }
+      },
+      "max": 180,
+      "converted": null,
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E5%B2%90%E9%98%9C.pdf"
+    },
+    "shizuoka": {
+      "name": "静岡県",
+      "type": "fixed",
+      "weights": {
+        "g3": { "core": 1, "practical": 1 }
+      },
+      "max": 45,
+      "converted": null,
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E9%9D%99%E5%B2%A1.pdf"
+    },
+    "aichi": {
+      "name": "愛知県",
+      "type": "fixed",
+      "weights": {
+        "g3": { "core": 2, "practical": 2 }
+      },
+      "max": 90,
+      "converted": null,
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E6%84%9B%E7%9F%A5.pdf"
+    },
+    "mie": {
+      "name": "三重県",
+      "type": "fixed",
+      "weights": {
+        "g3": { "core": 1, "practical": 1 }
+      },
+      "max": 45,
+      "converted": null,
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E4%B8%89%E9%87%8D.pdf"
+    },
+    "shiga": {
+      "name": "滋賀県",
+      "type": "fixed",
+      "weights": {
+        "g1": { "core": 1, "practical": 1 },
+        "g2": { "core": 1, "practical": 1 },
+        "g3": { "core": 1, "practical": 1 }
+      },
+      "max": 135,
+      "converted": null,
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E6%BB%8B%E8%B3%80.pdf"
+    },
+    "kyoto": {
+      "name": "京都府",
+      "type": "fixed",
+      "weights": {
+        "g1": { "core": 1, "practical": 2 },
+        "g2": { "core": 1, "practical": 2 },
+        "g3": { "core": 1, "practical": 2 }
+      },
+      "max": 195,
+      "converted": null,
+      "notes": ["中期選抜の計算です。前期選抜は135点満点です"],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E4%BA%AC%E9%83%BD.pdf"
+    },
+    "osaka": {
+      "name": "大阪府",
+      "type": "fixed",
+      "weights": {
+        "g1": { "core": 2, "practical": 2 },
+        "g2": { "core": 2, "practical": 2 },
+        "g3": { "core": 6, "practical": 6 }
+      },
+      "max": 450,
+      "converted": null,
+      "notes": ["府の統一テストの結果で評定が補正されることがあります"],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E5%A4%A7%E9%98%AA.pdf"
+    },
+    "hyogo": {
+      "name": "兵庫県",
+      "type": "fixed",
+      "weights": {
+        "g3": { "core": 4, "practical": 7.5 }
+      },
+      "max": 250,
+      "converted": null,
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E5%85%B5%E5%BA%AB.pdf"
+    },
+    "nara": {
+      "name": "奈良県",
+      "type": "patterns",
+      "patterns": [
+        {
+          "label": "標準の高校",
+          "weights": {
+            "g1": { "abc": 1 },
+            "g2": { "abc": 1 },
+            "g3": { "core": 2, "practical": 2 }
+          },
+          "max": 144
+        },
+        {
+          "label": "中3の成績をさらに2倍にする高校",
+          "weights": {
+            "g1": { "abc": 1 },
+            "g2": { "abc": 1 },
+            "g3": { "core": 4, "practical": 4 }
+          },
+          "max": 234
+        },
+        {
+          "label": "中1・中2の評価を2倍にする高校",
+          "weights": {
+            "g1": { "abc": 2 },
+            "g2": { "abc": 2 },
+            "g3": { "core": 2, "practical": 2 }
+          },
+          "max": 198
+        },
+        {
+          "label": "中3の成績だけを使う高校",
+          "weights": {
+            "g3": { "core": 4, "practical": 4 }
+          },
+          "max": 180
+        }
+      ],
+      "notes": ["中1・中2は「主体的に学習に取り組む態度」の評価(A/B/C)を使います"],
+      "source": "https://www.pref.nara.lg.jp/documents/24281/24_r9gaiyou_chousasho.pdf"
+    },
+    "wakayama": {
+      "name": "和歌山県",
+      "type": "fixed",
+      "weights": {
+        "g1": { "core": 1, "practical": 1 },
+        "g2": { "core": 1, "practical": 1 },
+        "g3": { "core": 2, "practical": 2 }
+      },
+      "max": 180,
+      "converted": null,
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E5%92%8C%E6%AD%8C%E5%B1%B1.pdf"
+    },
+    "tottori": {
+      "name": "鳥取県",
+      "type": "coefficient",
+      "weights": {
+        "g3": { "core": 1, "practical": 2 }
+      },
+      "max": 65,
+      "coefficients": [
+        { "label": "内申を軽めに見る高校", "value": 2 },
+        { "label": "内申を中くらいに見る高校", "value": 3 },
+        { "label": "内申を重く見る高校", "value": 4 }
+      ],
+      "notes": [],
+      "source": "https://www.pref.tottori.lg.jp/secure/1340053/kennsanaiyoutoyouken.pdf"
+    },
+    "shimane": {
+      "name": "島根県",
+      "type": "fixed",
+      "weights": {
+        "g1": { "core": 1, "practical": 1 },
+        "g2": { "core": 1, "practical": 1 },
+        "g3": { "core": 2, "practical": 2 }
+      },
+      "max": 180,
+      "converted": null,
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E5%B3%B6%E6%A0%B9.pdf"
+    },
+    "okayama": {
+      "name": "岡山県",
+      "type": "fixed",
+      "weights": {
+        "g1": { "core": 1, "practical": 1 },
+        "g2": { "core": 1, "practical": 1 },
+        "g3": { "core": 2, "practical": 3 }
+      },
+      "max": 200,
+      "converted": null,
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E5%B2%A1%E5%B1%B1.pdf"
+    },
+    "hiroshima": {
+      "name": "広島県",
+      "type": "fixed",
+      "weights": {
+        "g1": { "core": 1, "practical": 1 },
+        "g2": { "core": 1, "practical": 1 },
+        "g3": { "core": 3, "practical": 3 }
+      },
+      "max": 225,
+      "converted": null,
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E5%BA%83%E5%B3%B6.pdf"
+    },
+    "yamaguchi": {
+      "name": "山口県",
+      "type": "fixed",
+      "weights": {
+        "g1": { "core": 1, "practical": 1 },
+        "g2": { "core": 1, "practical": 1 },
+        "g3": { "core": 1, "practical": 1 }
+      },
+      "max": 135,
+      "converted": null,
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E5%B1%B1%E5%8F%A3.pdf"
+    },
+    "tokushima": {
+      "name": "徳島県",
+      "type": "fixed",
+      "weights": {
+        "g1": { "core": 1, "practical": 2 },
+        "g2": { "core": 1, "practical": 2 },
+        "g3": { "core": 1, "practical": 2 }
+      },
+      "max": 195,
+      "converted": null,
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E5%BE%B3%E5%B3%B6.pdf"
+    },
+    "kagawa": {
+      "name": "香川県",
+      "type": "fixed",
+      "weights": {
+        "g1": { "core": 1, "practical": 1 },
+        "g2": { "core": 1, "practical": 1 },
+        "g3": { "core": 2, "practical": 4 }
+      },
+      "max": 220,
+      "converted": null,
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E9%A6%99%E5%B7%9D.pdf"
+    },
+    "ehime": {
+      "name": "愛媛県",
+      "type": "fixed",
+      "weights": {
+        "g1": { "core": 1, "practical": 1 },
+        "g2": { "core": 1, "practical": 1 },
+        "g3": { "core": 1, "practical": 1 }
+      },
+      "max": 135,
+      "converted": null,
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E6%84%9B%E5%AA%9B.pdf"
+    },
+    "kochi": {
+      "name": "高知県",
+      "type": "unconfirmed",
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E9%AB%98%E7%9F%A5.pdf"
+    },
+    "fukuoka": {
+      "name": "福岡県",
+      "type": "fixed",
+      "weights": {
+        "g3": { "core": 1, "practical": 1 }
+      },
+      "max": 45,
+      "converted": null,
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E7%A6%8F%E5%B2%A1.pdf"
+    },
+    "saga": {
+      "name": "佐賀県",
+      "type": "undisclosed",
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E4%BD%90%E8%B3%80.pdf"
+    },
+    "nagasaki": {
+      "name": "長崎県",
+      "type": "undisclosed",
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E9%95%B7%E5%B4%8E.pdf"
+    },
+    "kumamoto": {
+      "name": "熊本県",
+      "type": "fixed",
+      "weights": {
+        "g1": { "core": 1, "practical": 1 },
+        "g2": { "core": 1, "practical": 1 },
+        "g3": { "core": 2, "practical": 2 }
+      },
+      "max": 180,
+      "converted": null,
+      "notes": ["5教科は学力検査の得点で補正されるため目安です"],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E7%86%8A%E6%9C%AC.pdf"
+    },
+    "oita": {
+      "name": "大分県",
+      "type": "fixed",
+      "weights": {
+        "g1": { "core": 1, "practical": 2 },
+        "g2": { "core": 1, "practical": 2 },
+        "g3": { "core": 2, "practical": 4 }
+      },
+      "max": 260,
+      "converted": null,
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E5%A4%A7%E5%88%86.pdf"
+    },
+    "miyazaki": {
+      "name": "宮崎県",
+      "type": "undisclosed",
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E5%AE%AE%E5%B4%8E.pdf"
+    },
+    "kagoshima": {
+      "name": "鹿児島県",
+      "type": "fixed",
+      "weights": {
+        "g3": { "core": 2, "practical": 20 }
+      },
+      "max": 450,
+      "converted": null,
+      "notes": ["志願者の申し出で、特定の教科を最大2倍にできます"],
+      "source": "https://czemi.benesse.ne.jp/open/nyushi/article/46/feature/0046.html"
+    },
+    "okinawa": {
+      "name": "沖縄県",
+      "type": "fixed",
+      "weights": {
+        "g1": { "core": 1, "practical": 1.5 },
+        "g2": { "core": 1, "practical": 1.5 },
+        "g3": { "core": 1, "practical": 1.5 }
+      },
+      "max": 165,
+      "converted": null,
+      "notes": [],
+      "source": "https://www.sing.co.jp/bwp/wp-content/uploads/2026-%E6%B2%96%E7%B8%84.pdf"
+    }
+  }
+}
